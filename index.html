@@ -12,18 +12,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-
-
-<!-- <section class="container"> -->
-<!--sections containing all the available details and sections of the page -->
-
-<!--     </section>
-  </main> -->
-
 <body>
   <header>
     <nav>
-      <div id="one" class="schnamecont">
+      <div class="one schnamecont">
         <!--The name of our school -->
 
         <div class="schoolname">KADEMY-224</div>
@@ -32,15 +24,15 @@
         </div>
       </div>
 
-      <div id="one" class="middlebar">
+      <div class="one middlebar">
         <div class="menu">
           <input class="input-box" name="keyword" placeholder="Search & run commands" />
         </div>
       </div>
 
-      <div id="one" class="rightbar">
+      <div class="one rightbar">
         <div class="right-bar-content">
-          <div class="hambuger">
+          <div class="hamburger">
             <span class="block"></span>
             <span class="block"></span>
             <span class="block"></span>
@@ -53,7 +45,7 @@
 
   <main>
     <div class="container">
-      <div class="panel">
+      <div id="panel" class="panel">
         <div class="main-panel">
           <div class="main-p-cont links">
             <div id="menu-pointers" class="dashbord">
@@ -86,34 +78,35 @@
       <div class="content">
         <div class="main-content">
           <div class="heading">
-            <h1 class="dashboard ">Dashboard</h1>
-            <p>Dashboard</p>
+            <h1 class="dashboard">KADEMY-224 DASHBOARD</h1>
+            <p class="headings"><img src="./images/dashboard.png" alt="Dashboard" /><strong>Dashboard</strong></p>
           </div>
           <div class="tracks">
-            <div class="track-details">
-              <div class="track-1-up">Frontend-Engineering</div>
-              <div class="track-1-down">
+            <div id="track-details-1">
+              <div id="track-1-up">Frontend-Engineering</div>
+              <div id="track-1-down">
                 <a class="sch-details-link" href="#">View details <img src="./images/right-arrow-20.png"
                     class="arrow" /></a>
               </div>
             </div>
-            <div class="track-details-2">
-              <div class="track-2-up">Backend-Engineering</div>
-              <div class="track-2-down">
+            <div id="track-details-2">
+              <div id="track-2-up">Backend-Engineering</div>
+              <div id="track-2-down">
                 <a class="sch-details-link" href="#">View details <img src="./images/right-arrow-20.png"
                     class="arrow" /></a>
               </div>
             </div>
-            <div class="track-details-3">
-              <div class="track-3-up">Cloud-Engineering</div>
-              <div class="track-3-down">
+            <div id="track-details-3">
+              <div id="track-3-up">Cloud-Engineering</div>
+              <div id="track-3-down">
                 <a class="sch-details-link" href="#">View details <img src="./images/right-arrow-20.png"
                     class="arrow" /></a>
               </div>
             </div>
           </div>
           <div class="charts">
-            <div class="chart-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt pariatur quam, ab
+            <div class="chart-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt pariatur
+              quam, ab
               ipsam et incidunt provident recusandae eius laborum fuga, adipisci, ratione nesciunt dolore facilis
               aliquid quasi esse ea? Ipsum.
               Quasi impedit illo unde architecto cumque sapiente aliquid dolores ipsum enim ducimus quaerat odio
@@ -122,7 +115,8 @@
               Dolor quas architecto ipsam. Optio asperiores cum cupiditate sapiente quaerat explicabo vel quisquam
               excepturi, pariatur, doloribus reprehenderit quo consectetur deserunt recusandae distinctio id consequatur
             </div>
-            <div class="chart-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, ad, vero cumque qui
+            <div class="chart-container">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, ad, vero cumque
+              qui
               doloribus eos ut repudiandae pariatur iure necessitatibus officia atque ullam laboriosam provident! Quos
               exercitationem similique repellat nobis?
               Iste modi temporibus architecto numquam quis delectus sapiente maxime praesentium odio id ut ipsa, neque
@@ -134,29 +128,30 @@
           <div class="tb-section">
             <div class="tbl-heading">
               <div id="inner-cont-1" class="instructor"><img src="./images/instructors.png" /><span
-                  class="head-text"><strong>INSTRUCTORS-TABLE</strong></span></div>
+                  class="head-text"><strong>INSTRUCTORS - TABLE</strong></span></div>
             </div>
             <div class="tables">
               <div id="inner-cont-2" class="table-cont">
                 <div class="entries">Entries Page</div>
                 <div class="search"><input class="input-search" name="search" placeholder="Search...."></div>
               </div>
-              <div id="instructor-table" class="tbl-data-cont">
+              <div id="track-table" class="tbl-data-cont">
                 <div class="table-row">
-                  <div class="table-head table-cell">Instructors <span class="sortable">v</span></div>
+                  <div class="table-head table-cell">Instructor
+                  </div>
                   <div class="table-head table-cell">No. Of Courses <span class="sortable">v</span></div>
                 </div>
                 <div class="table-row">
-                  <div class="table-cell"></div>
+                  <div class="table-cell">Prof. Yemi Osibanjo</div>
                   <div class="table-cell">2</div>
                 </div>
                 <div class="table-row">
-                  <div class="table-cell"></div>
-                  <div class="table-cell">4</div>
+                  <div class="table-cell">Engr. Victor Okafor</div>
+                  <div class="table-cell">6</div>
                 </div>
                 <div class="table-row">
-                  <div class="table-cell"></div>
-                  <div class="table-cell">2</div>
+                  <div class="table-cell">Dr. Attahiru M. Jega</div>
+                  <div class="table-cell">3</div>
                 </div>
               </div>
               <div class="table-bottom">
@@ -168,16 +163,18 @@
           <div class="tb-section">
             <div class="tbl-heading">
               <div id="inner-cont-1" class="instructor"><img src="./images/instructors.png" /><span
-                  class="head-text"><strong>TRACKS-TABLE</strong></span></div>
+                  class="head-text"><strong>TRACKS - TABLE</strong></span></div>
             </div>
             <div class="tables">
               <div id="inner-cont-2" class="table-cont">
                 <div class="entries">Entries Page</div>
                 <div class="search"><input class="input-search" name="search" placeholder="Search...."></div>
               </div>
-              <div id="instructor-table" class="tbl-data-cont">
+              <div id="track-table" class="tbl-data-cont">
                 <div class="table-row">
-                  <div class="table-head table-cell">Tracks <span class="sortable">v</span></div>
+                  <div class="table-head table-cell">Tracks
+                    <!--                     <span class="sortable">v</span> -->
+                  </div>
                   <div class="table-head table-cell">No of Students <span class="sortable">v</span></div>
                 </div>
                 <div class="table-row">
@@ -202,60 +199,64 @@
           <div class="tb-section">
             <div class="tbl-heading">
               <div id="inner-cont-1" class="instructor"><img src="./images/instructors.png" /><span
-                  class="head-text"><strong>STUDENT-DATA</strong></span></div>
+                  class="head-text"><strong>STUDENT - DATA</strong></span></div>
             </div>
             <div class="tables">
               <div id="inner-cont-2" class="table-cont">
                 <div class="entries">Entries Page</div>
                 <div class="search"><input class="input-search" name="search" placeholder="Search...."></div>
               </div>
-              <div id="instructor-table" class="tbl-data-cont">
-                <div class="table-row-trk" id="table-row-header">
-                  <div class="table-head table-cell">TRACKS <span class="sortable">v</span></div>
-                  <div class="table-head table-cell">GENDER <span class="sortable">v</span></div>
+              <div id="gender-table" class="tbl-data-cont">
+                <div class="table-row table-row-trk" id="table-row-header">
+                  <div class="table-head table-cell">TRACKS
+                    <!--                     <span class="sortable">v</span> -->
+                  </div>
+                  <div class="table-head table-cell">GENDER
+                    <!--                     <span class="sortable">v</span> -->
+                  </div>
                   <div class="table-head table-cell">NO <span class="sortable">v</span></div>
                 </div>
-                <div class="table-row-trk">
+                <div class="table-row table-row-trk">
                   <div class="table-cell">Frontend-Engineering</div>
-                  <div class="table-cell">Males</div>
+                  <div class="table-cell">Male</div>
                   <div class="table-cell">200</div>
                 </div>
-                <div class="table-row-trk">
+                <div class="table-row table-row-trk">
                   <div class="table-cell">Frontend-Engineering</div>
-                  <div class="table-cell">Females</div>
+                  <div class="table-cell">Female</div>
                   <div class="table-cell">150</div>
                 </div>
-                <div class="table-row-trk">
+                <div class="table-row table-row-trk">
                   <div class="table-cell">Frontend-Engineering</div>
                   <div class="table-cell">Others</div>
                   <div class="table-cell">0</div>
                 </div>
-                <div class="table-row-trk">
+                <div class="table-row table-row-trk">
                   <div class="table-cell">Backend-Engineering</div>
-                  <div class="table-cell">Males</div>
+                  <div class="table-cell">Male</div>
                   <div class="table-cell">300</div>
                 </div>
-                <div class="table-row-trk">
+                <div class="table-row table-row-trk">
                   <div class="table-cell">Backend-Engineering</div>
-                  <div class="table-cell">Females</div>
+                  <div class="table-cell">Female</div>
                   <div class="table-cell">200</div>
                 </div>
-                <div class="table-row-trk">
+                <div class="table-row table-row-trk">
                   <div class="table-cell">Backend-Engineering</div>
                   <div class="table-cell">Others</div>
                   <div class="table-cell">0</div>
                 </div>
-                <div class="table-row-trk">
+                <div class="table-row table-row-trk">
                   <div class="table-cell">Cloud-Engineering</div>
-                  <div class="table-cell">Males</div>
+                  <div class="table-cell">Male</div>
                   <div class="table-cell">500</div>
                 </div>
-                <div class="table-row-trk">
-                  <div class="table-cell">Backend-Engineering</div>
-                  <div class="table-cell">Females</div>
+                <div class="table-row table-row-trk">
+                  <div class="table-cell">Cloud-Engineering</div>
+                  <div class="table-cell">Female</div>
                   <div class="table-cell">400</div>
                 </div>
-                <div class="table-row-trk">
+                <div class="table-row table-row-trk">
                   <div class="table-cell">Cloud-Engineering</div>
                   <div class="table-cell">Others</div>
                   <div class="table-cell">0</div>
@@ -271,33 +272,41 @@
           <div class="tb-section">
             <div class="tbl-heading">
               <div id="inner-cont-1" class="instructor"><img src="./images/instructors.png" /><span
-                  class="head-text"><strong>STUDENT STATISTICS -TABLE</strong></span></div>
+                  class="head-text"><strong>STUDENT STATISTICS - TABLE</strong></span></div>
             </div>
             <div class="tables">
               <div id="inner-cont-2" class="table-cont">
                 <div class="entries">Entries Page</div>
                 <div class="search"><input class="input-search" name="search" placeholder="Search...."></div>
               </div>
-              <div id="instructor-table" class="tbl-data-cont">
-                <div class="table-row-std-sts-tbl">
-                  <div class="table-head table-cell">Tracks <span class="sortable">v</span></div>
-                  <div class="table-head table-cell">Min-Age <span class="sortable">v</span></div>
-                  <div class="table-head table-cell">Max-Age <span class="sortable">v</span></div>
-                  <div class="table-head table-cell">Avg-Age <span class="sortable">v</span></div>
+              <div id="stats-table" class="tbl-data-cont">
+                <div class="table-row table-row-std-sts-tbl ">
+                  <div class="table-head table-cell">Tracks
+                    <!--                     <span class="sortable">v</span> -->
+                  </div>
+                  <div class="table-head table-cell">Min-Age
+                    <!--                     <span class="sortable">v</span> -->
+                  </div>
+                  <div class="table-head table-cell">Max-Age
+                    <!--                     <span class="sortable">v</span> -->
+                  </div>
+                  <div class="table-head table-cell">Avg-Age
+                    <span class="sortable">v</span>
+                  </div>
                 </div>
-                <div class="table-row-std-sts-tbl">
+                <div class="table-row table-row-std-sts-tbl ">
                   <div class="table-cell">Frontend-Engineering</div>
                   <div class="table-cell">20</div>
                   <div class="table-cell">40</div>
                   <div class="table-cell">30</div>
                 </div>
-                <div class="table-row-std-sts-tbl">
+                <div class="table-row table-row-std-sts-tbl ">
                   <div class="table-cell">Backend-Engineering</div>
                   <div class="table-cell">17</div>
                   <div class="table-cell">45</div>
                   <div class="table-cell">31</div>
                 </div>
-                <div class="table-row-std-sts-tbl">
+                <div class="table-row table-row-std-sts-tbl ">
                   <div class="table-cell">Cloud-Engineering</div>
                   <div class="table-cell">18</div>
                   <div class="table-cell">34</div>
@@ -310,7 +319,9 @@
             </div>
           </div>
 
-          <div class="footer-content">footer-content</div>
+          <div class="footer-content">
+            <p>&#169;2022 Circle 224. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </div>

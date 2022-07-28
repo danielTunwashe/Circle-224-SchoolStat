@@ -1,1 +1,20 @@
 Questions: 
+eddy: Are we using boostrap? 
+
+Answer from de-marauder: You can use bootstrap if you want.
+
+de-marauder: I have edited all the tables to have only one sortable column
+de-marauder: The classes 'table-row' should not be removed from any table.
+I have used them in my javascript.
+
+de-marauder: I utilized the Array.sort() function to sort the tables. Follow the comments in the app.mjs file for more details
+
+sylvester: "The instruction says; implement only the knowledge of what has been taught: HTML, CSS, JS. revert back to README line12..."
+
+de-marauder: Are you referring to bootstrap @sylvester? Fine then we'll scrap it. Write all your CSS custom.
+
+Eddy: "if you look at the aside column where we have the instrucor, dashboard etc. they seems far apart, i tried correcting it but its difficult. Good work teams.."
+
+Eddy: "Maybe if their is enough time we might try using semantic html"
+
+sylvester:"Who has idea, of what the class="charts" should entail?"
