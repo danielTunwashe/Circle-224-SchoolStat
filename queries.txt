@@ -18,3 +18,11 @@ Eddy: "if you look at the aside column where we have the instrucor, dashboard et
 Eddy: "Maybe if their is enough time we might try using semantic html"
 
 sylvester:"Who has idea, of what the class="charts" should entail?"
+
+Ayodeji: "@de-marauder, the sort button works fine for STUDENT STATISTICS - TABLE and STUDENT - DATA tables. However, when you click on the sort button for 'No of Students' (TRACKS - TABLE), it insteads sort the INSTRUCTORS - TABLE (the button doesn't work at all), kindly help look into it. I would love if you did that during the meeting so we can be carried along. I'm very interested in understanding how the logic works. Thanks"
+
+Ayodeji: "HTML/CSS gurus, abeg, e remain the Hamburger button responsiveness on smaller screen. When it is clicked on, the aside panel should appear by the side. I can't wrap my head around it."
+
+Ayodeji: "@Sylvester, we can always leave the charts section with the filler Lorem Ipsum. If you have contents we can include, maybe like an explanation of what the academy is about, you can add to the code."
+
+de-marauder: "@Ayodeji I've fixed it."
