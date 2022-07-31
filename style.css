@@ -22,6 +22,7 @@ nav {
   display: grid;
   grid-template-columns: 15% 70% 15%;
   background-color: #212529;
+        
 }
 
 .schnamecont {
@@ -165,6 +166,18 @@ main {
   color: #fff;
 }
 
+/* .instructors {
+ } */
+
+/* .lin {
+ } */
+
+/* .btn:hover {
+  color: #fff;
+} */
+
+/* .students {
+ } */
 
 .dash > a {
   padding-top: 5px;
@@ -326,7 +339,7 @@ main {
   border-radius: 5px;
 }
 
-/* Charts Content */
+/*   For the images that shows lyk a statistics      */
 
 .charts {
   display: grid;
@@ -339,7 +352,6 @@ main {
 .chart-container {
   height: 100%;
 }
-/*   For the images that shows lyk a statistics      */
 
 .chart-container img{
   height: 100%;
@@ -353,6 +365,7 @@ main {
 .tb-section {
   width: 100%;
   padding: 10px 30px;
+  border-radius: 5px;
   border-top-left-radius: 0;
   margin:20 auto;
   color:white;
@@ -363,11 +376,12 @@ main {
   flex-direction: row;
   border: 3px solid #212529;
   padding: 8px 0;
-  background-color: #212529;
+   background-color: #212529;
   align-items:center;
   justify-content:center;
   border-bottom: 5px solid white;
 }
+
 
 
 .tables {
@@ -375,7 +389,7 @@ main {
   flex-direction: column;
   width: 100%;
   padding: 10px 20px;
-  border:3px solid #212529;
+   border:3px solid #212529;
   background-color: #212529;
   border-radius: 5px;
 }
@@ -440,22 +454,17 @@ main {
   background: #eee;
   height: 2rem;
   width: 100%;
-  border: 1px solid black;
+   border: 1px solid black;
   background-color: #0d6efd;
   color:white;
 }
 
-/* .table-cell:last-child {
-  background-color: #0d6efd;
-} */
 
 .sortable {
   display: flex;
   flex-direction: row;
   border: 1px #555 solid;
   border-radius: 50%;
-  background-color: #212529;
-  color: white;
   padding: 3px;
   content: "V";
   font-size: 0.5rem;
@@ -465,6 +474,8 @@ main {
   position: relative;
   cursor: pointer;
   transition: ease-in 0.2s;
+  background-color: #212529;
+  color: white;
 }
 
 .sortable:hover {
@@ -505,7 +516,7 @@ main {
   padding:5px 10px 5px 5px;
   background-color: #188351;
   color:white;
-  
+
 }
 
 #front-end-pop-up{
@@ -519,7 +530,6 @@ main {
 #cloud-pop-up{
   display:none;
 }
-
 
 
 
