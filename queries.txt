@@ -28,3 +28,6 @@ Ayodeji: "@Sylvester, we can always leave the charts section with the filler Lor
 de-marauder: "@Ayodeji I've fixed it."
 
 @the-js guyzs pls i have worked on the pop-up's and i have assigned unique ID to each pop-up's though they are cureently set to display none so they cant be seen pls use js logic to make them appear when a user select the track in the dashboard. you can check the pop-up's css from line 503. Thanks. and i will aslo be glad if there can be a time so it display for a short time and gets hidden back.
+
+@eddy: the student image is not loading i think your image file is in .svg which might not be supported here try to change it...
+

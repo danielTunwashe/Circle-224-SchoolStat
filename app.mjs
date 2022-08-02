@@ -10,13 +10,14 @@ function startApp() {
 
 };
 
-function hamburgerLogic () {
+
+function hamburgerLogic() {
   let toggle = true;
 
   const menuBtn = document.getElementById("hamburger");
   const sidebar = document.getElementById("sidebar");
 
-  menuBtn.addEventListener('click', ()=>{
+  menuBtn.addEventListener('click', () => {
     if (toggle) {
       sidebar.style.transform = "translateX(0)"
 
@@ -28,7 +29,7 @@ function hamburgerLogic () {
   });
 }
 
-function sortTables () {
+function sortTables() {
 
   // This is a list of table ids. They will be used to get the different tables
   const tables = ['instructor-table', 'track-table', 'gender-table', 'stats-table']
@@ -85,6 +86,11 @@ function sortTables () {
 
     tableToggle = !tableToggle;
   }
+}
+
+function myFunction() {
+  let popup = document.getElementById(front - end - pop - up);
+  popup.classList.toggle("show");
 }
 
 

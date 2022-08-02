@@ -523,14 +523,23 @@ main {
 }
 
 #front-end-pop-up{
+  visibility: hidden;
+  z-index: 1;
   display:none;
+  width:100%
+}
+#front-end-pop-up.show{
+  visibility:show;
+  animation: fadeIn 1s;
 }
 
 #back-end-pop-up{
+  width:100%;
   display:none;
 }
 
 #cloud-pop-up{
+  width:100%;
   display:none;
 }
 
