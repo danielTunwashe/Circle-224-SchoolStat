@@ -31,3 +31,6 @@ de-marauder: "@Ayodeji I've fixed it."
 
 @eddy: the student image is not loading i think your image file is in .svg which might not be supported here try to change it...
 
+Sylvester: "I did the popups already. you might wish to stop displaying the previous details"...
+
+Sylvester: "I deleted the svg file few days ago. you might also wish to refresh; Thank you all. Looking foward to second semester achievements"
