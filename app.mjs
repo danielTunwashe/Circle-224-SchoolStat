@@ -88,10 +88,33 @@ function sortTables() {
   }
 }
 
-function myFunction() {
-  let popup = document.getElementById(front - end - pop - up);
-  popup.classList.toggle("show");
-}
+const frontEnd = document.getElementById('front-end-pop-up');
+const backEnd = document.getElementById('back-end-pop-up');
+const cloud = document.getElementById('cloud-pop-up');
+const modal_container = document.getElementById('modal_container');
+const close = document.getElementById('close');
+
+document.getElementById('frontBtn').addEventListener('click', () => {
+  document.getElementById('modalH').innerHTML = 'Frontend-Engineering';
+  document.getElementById('modalP').innerHTML = frontEnd.innerHTML;
+  modal_container.classList.add('show');
+});
+document.getElementById('backBtn').addEventListener('click', () => {
+  document.getElementById('modalH').innerHTML = 'Backend-Engineering';
+  document.getElementById('modalP').innerHTML = backEnd.innerHTML;
+  modal_container.classList.add('show');
+});
+document.getElementById('cloudBtn').addEventListener('click', () => {
+  document.getElementById('modalH').innerHTML = 'Cloud-Engineering';
+  document.getElementById('modalP').innerHTML = cloud.innerHTML;
+  modal_container.classList.add('show');
+});
+
+close.addEventListener('click', () => {
+  modal_container.classList.remove('show');
+});
+
+
 
 
 
